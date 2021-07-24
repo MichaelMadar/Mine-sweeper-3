@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+h1 {
+    color: rgb(146, 45, 112);
+}
+.board {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(31, 126, 52);
+    margin: auto;
+    position: auto;
+}
+table {
+    margin: auto;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+.cell.mark {
+    background-color: #cccbcb;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+.cell {
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 40px;
+
+}
+.board td {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}

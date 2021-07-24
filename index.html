@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <h1>Mine Sweeper</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+    <div class="radio-btn">
+        <label>Lvl 1
+            <input type="radio" name="radio" onclick="upGradeBoard(this)" value="1">
+        </label>
+        <label>Lvl 2
+            <input type="radio" name="radio" onclick="upGradeBoard(this)" value="2">
+        </label>
+        <label>Lvl 3 
+            <input type="radio" name="radio" onclick="upGradeBoard(this)" value="3">
+        </label>
+    </div>
+    <h2>Lives: <span class="lives">3</span></h2>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+    <footer>
+        <p>Sprint-1 Michael Madar</p>
+    </footer>
+</body>
+
+</html>
